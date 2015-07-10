@@ -10,6 +10,6 @@
   git push learngit msater  
   
 4. 从版本库中删除该文件，那就用命令git rm删掉，并且git commit：  
-* git rm first.txt   
-  git commit -m "remove first.txt"  
+   git rm first.txt   
+   git commit -m "remove first.txt"  
   
