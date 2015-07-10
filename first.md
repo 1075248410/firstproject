@@ -1,5 +1,5 @@
 ## 学习git第一天
-语法
+语法  
 1. git add 文件 把文件添加到git仓库  
   例子：git add readme.txt  
   
