@@ -47,7 +47,7 @@
   * 要重返未来，用`git reflog`查看命令历史，以便确定要回到未来的哪个版本。  
   
 ### 3.撤销修改  
-    `git checkout -- readme.txt`
+    git checkout -- readme.txt
     命令git checkout -- readme.txt意思就是，把readme.txt文件在工作区的修改全部撤销，这里有两种情况：  
     一种是readme.txt自修改后还没有被放到暂存区，现在，撤销修改就回到和版本库一模一样的状态；  
     一种是readme.txt已经添加到暂存区后，又作了修改，现在，撤销修改就回到添加到暂存区后的状态。  
