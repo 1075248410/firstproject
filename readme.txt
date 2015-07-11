@@ -1,2 +1,2 @@
 Git is a version contrcxcol system.
-Git is free scxcoftware
+Git is free software
