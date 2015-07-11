@@ -8,3 +8,12 @@
 `mkdir learngit`  
 `cd learngit`  
 `pwd`  
+`pwd` 命令用于显示当前目录  
+如果你使用Windows系统，为了避免遇到各种莫名其妙的问题，请确保目录名（包括父目录）不包含中文。  
+第二步，通过`git init`命令把这个目录变成Git可以管理的仓库：  
+` git init    
+  Initialized empty Git repository in /Users/michael/learngit/.git/`  
+  瞬间Git就把仓库建好了，而且告诉你是一个空的仓库（empty Git repository），
+  细心的读者可以发现当前目录下多了一个`.git`的目录，这个目录是Git来跟踪管理版本库的，没事千万不要手动修改这个目录里面的文件，不然改乱了，就把Git仓库给破坏了。
+  如果你没有看到.git目录，那是因为这个目录默认是隐藏的，用`ls -ah`命令就可以看见。  
+  
